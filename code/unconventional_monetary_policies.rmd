@@ -1,0 +1,119 @@
+---
+title: The Emergence and Adoption of Unconventional Monetary Policy and their Potential
+  Effects Exerted on the Economy
+author: "Qing Wen"
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyhf{}
+- \fancyhead[CO,CE]{Qing Wen, 1005014832}
+- \fancyfoot[LE,RO]{\thepage}
+date: "Dec 6, 2020"
+output: pdf_document
+bibliography: reference.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+setwd("C:/Users/10128/Desktop/ECO202")
+```
+
+## Abstract
+In this paper, we focused on the objective of analyzing the effect of the conventional/unconventional monetary policies have on dealing with economic distress. We start with defining some of these policies and the benefits they bring in assist to restore the normal state of the economy as well as their potential limitations. Specifically, we explain why sometimes conventional monetary policies are not sufficient in dealing with the challenges and introduce unconventional monetary policies as a viable alternative, and we give some historical implementation of these policies to demonstrate their effectiveness. Then, by briefly analyzing the available conventional/unconventional fiscal policies in conjunction with the monetary policies, we concluded that the described policies should keep remaining in policy makers' toolkits, and perhaps more tools would be needed in the future.
+
+
+## Introduction
+Conventional monetary policy has always been a powerful tool adopted by many countries to influence economic variables like the GDP, the interest rate, the price level, and inflation. Under most circumstances, the conventional monetary policy works perfectly fine and provides the economy with a great strategy to influence economic status. However, there are also weaknesses involved with conventional monetary policy. That is, if a country for some reason maintains its interest rate consistently close to zero, either in response to a depressed economic state or to maintain a certain inflation target, it leaves little room for additional conventional monetary policy to take place in the near future. The reason is that there is generally a "zero lower bound" suggesting that the nominal interest rate should not go below zero. 
+
+With the limitation of the conventional monetary policy in mind, the emergence of unconventional monetary policy sheds some light on finding a non-traditional way of exerting monetary policy and helps to regulate the economy. The unconventional monetary policy is thought to develop mainly in the midst of the Great Recession taking place during 2007-2009 in response to one of the most striking economic crises in history. Major unconventional monetary policies involve: **1. quantitative easing; 2. forward guidance; 3. negative interest rates**, which would all be discussed more extensively in this paper. 
+
+The unconventional monetary policy is proven to be quite effective during the periods of "heightened financial distress"[@citeHutchins], which justifies its emergence from a historical financial crisis. After the very first adoption of the unconventional monetary policy, the policy has justified its power and sit in the economic toolkit for many countries after the crisis. At present year(2020), the world economy seems to run into depression due to the corona-virus pandemic. Since early 2020, the pandemic took place and kept evolving, becoming one tough challenge faced by people worldwide. Despite its clear impact on human health, another great negative impact it has is certainly on the economy. Most countries have a sharp decrease in GDP due to the forced self-quarantine in the face of the virus. Unemployment rate is also sharply increasing. In attempt to get the economy back to its normal state, many countries need more than one form of the policies.
+
+Hence, once proven useful, unconventional monetary policy could be used to restore financial stability or to prevent further economic distress. In this paper, we would be discussing how conventional/unconventional monetary works in theory, a brief history of the unconventional monetary policy with real-world examples, along with future steps taken to address current shortages of the policy. 
+
+
+## Conventional vs. Non-Conventional Monetary Policy
+### Conventional Monetary Policy
+In a conventional monetary policy setting, the central bank is involved with setting the target for the overnight interest rate and adjusting its money supply accordingly to meet the target, mainly through the **open-market operation**. To give a concrete example to demonstrate the mechanism, suppose the central bank aims at achieving a lower-than-present policy rate, what it does is to conduct an expansionary monetary policy by buying bonds. Hence, the demand for bonds increases, and the central bank effectively bids up the bond price and decreases the interest rate. A further impact of the lowering interest rate could be an increasing level of investment spending and thereby an expanded output level, as investment spending is negatively correlated to the interest rate. 
+
+Despite the open-market operation, other conventional monetary policies may involve a **required reserve ratio**, where the commercial banks are required to keep a certain proportion of the chequable deposits as reserves. Hence, by adjusting the required reserve ratio, the Central Bank could also indirectly influence the money supply as the commercial banks are involved with fractional banking. By lowering the reserve ratio, money supply effectively expands and the result would be similar to what is described in the previous paragraph.
+
+As we see, the conventional monetary policy relies hugely on the adjustment of the interest rate. Through changing the money supply to influence the interest rate, it then influences output through investment. However, what policy should be enacted if an economy is now with an interest rate near zero but is still in a recession? Once the interest rate is already close to zero, the opportunity cost of holding money is almost none, and extra liquidity injection to the economy would just make people willing to hold the extra liquidity as cash. Therefore, the economy would run into a liquidity trap, and extra monetary stimulus would not lead to a higher output as it would require the interest rate to go below zero. In 2009, the unemployment rate rises to nearly 10%, the policy introduced a 7% cut on the interest rate. Since then, the Fed is limited from lowering the fund rate further since the interest rate is about to hit the zero bound[@citeSan].
+
+### Unconventional Monetary Policy
+The unconventional monetary policy provides some new insights into regulating the state of the economy. As mentioned in the *Introduction*, we would be defining the major unconventional monetary policies here.
+
+1. **Quantitative Easing(QE)**: involves the central bank purchasing a large number of assets from the private sector. The central bank pays for these assets by creating "central bank reserves"[@citeBankAustralia]. The main assets bought are the long-term government bonds. The purpose of implementing QE is that the as the short-term interest rate is hitting the zero bound, the central bank can still provide a monetary stimulus by increasing the price for long-term bonds and thereby decreasing the long-term interest rate[@citeHutchins]. 
+
+Hence, by decreasing the long-term interest rate, QE helps the economy through a way similar to how a conventional monetary policy does. The decreasing interest rate stimulates investment, and since investment is part of the demand for domestic goods, the demand would increase and lead to an increased output through the multiplier effect. As a result, consumption would increase based on the rising output. Furthermore, the increasing output indicates a lower-than-before unemployment rate, leading the workers to ask for higher nominal wages which raises firms' production costs. In the end, we would have a higher price in the economy, and a higher inflation. Also, by conducting QE, the public also gets the signal that the interest rate is likely to be low for quite some time and thereby changing future expectations.
+
+2. **Forward guidance**: involves the central bank communicating to the people about the monetary policy it is going to conduct. It can be either calendar-based, in which the central bank makes a statement about whether to increase or decrease the interest rate for the following period of time; or it can be based on the state of the economy, which the central bank claims to keep the interest rate at a certain level until a certain economic condition is met[@citeBankAustralia]. 
+
+It is widely perceived by people that expectation plays a huge role in economics. Sometimes non-credible policy-makers and monetary system can lead people to form misaligning expectations with the economic objective and leads to inefficient policy conduction. For instance, if it is well-perceived by the market that the interest rate is going to be kept low for quite a while, the public would likely to increase investment and consumption spending and increases output. Through a similar argument, there would be inflation in the economy as the output expands. Hence, the presence of forward guidance presents the public with the economic goal and reduces uncertainly regarding the future economic prospect. 
+
+3. **Negative interest rate**: as the name suggests, instead of receiving interest on the deposits, the central bank is now charging the commercial banks with their reserves at the central bank. The purpose is to encourage commercial banks to reduce their excess reserves and increase lending to stimulate the money supply and spending by both private sector consumption and investment. 
+
+As we know that the commercial bank uses fractional banking, the reduction in excess reserve effectively increases the money multiplier and increases the total money supply. In theory, with the extra liquidity, people tend to demand more bonds and bids up the bond price, which then decreases the interest rate. With the same argument, investment and output would rise accordingly, leading to higher consumption and higher price. 
+
+
+## Historical Implementation of the Unconventional Monetary Policy
+### The Great Recession in the United States
+The 2008 global financial crisis had been a great pain for the Federal Reserves to deal with. The interest rate almost hit the zero bound and it compelled the Feds to adopt an unconventional monetary policy to help ease the stress on the economy. The main strategies adopted were *quantitative easing* and *forward guidance*. 
+
+Quantitative easing took place with different stages. Table 1 in the Appendix showed the characteristics of the subsequent purchase of assets, which caused the central bank's balance sheet to a five-fold expansion, from \$900 billion to $4.5 trillion[@citeKenneth]. The result shows that the first round of QE generated a large impact on the market, while successive rounds exerted smaller effects on the market movement. However, the effect of the total purchase of assets on the 10-year Treasury yield exceeds 120 basis points, which has proven the usefulness of QE on economic disturbance.
+
+Along with quantitative easing, the Fed also used forward guidance to convey the message. At first, the message was quite vague, stating that the interest rate was going to last for "some time". It was not until 2011 that forward guidance then involved calendar-based statements. And in December 2012, the Fed explicitly stated that the interest rate would be low as long as the unemployment rate remained above 6.5% and the inflation forecast remained below 2.5%[@citeKenneth].
+
+
+### Financial Crisis in Japan
+Since the early 1990s, Japan has gone through a slow output growth and low inflation. The 2008 financial crisis made the situation even worse by contracting the GDP even more. As statistic shows that Japan's GDP fell by 8.5% a year[@citeHutchins]. What Japan decided to do was to mainly adopt two forms of the unconventional monetary policy since its short term interest rate was already kept at close to zero before the crisis. The policies were namely *forward guidance* and *quantitative easing*. Japan clearly asserted that the interest rate would be kept low until attaining price stability. Meanwhile, it announced the plan for purchasing ¥5 trillion assets. However, due to the depressed economy world-wide, the policy did not show great effectiveness in increasing inflation and output. After the election of Abe as the Prime Minister of Japan in 2012, several more rounds of asset purchasing occurred in response to Abe's statement of increasing monetary stimulus. The economic status did seem to get better temporarily, followed by another deflation period. In 2016, Japan then introduced a *negative interest rate* of -0.1% on part of the reserves the financial institutions had with the central bank. 
+
+The lesson we learned from what Japan has gone through in fighting with its economic challenges is that the seemingly ineffectiveness of the unconventional monetary policy is largely based on the fact that Japan has previously experienced long-lasting periods of deflation. The forward guidance statement and successive rounds of quantitative easing program seem to have little credibility to the public as the majority of the people did not form expectations in alignment with policy-makers' intentions. This once again emphasized the importance of the role of forming desirable expectations in economics. 
+
+## Role of Conventional/Unconventional Fiscal Policies
+Policy-makers usually do not use monetary policy alone especially during times of economic distress. As we shall see in more detail in the conclusion section, a huge limitation of the conventional/unconventional monetary policy is the zero bound of the interest rate. Once the benefit from lowering long-term interest rates is exhausted as well, fiscal policy can come in handy as another available tool. Traditionally, fiscal policy involved the government either increasing spending or decreasing taxes when the economy is in recession, which is likely to increase the government debt on a large scale. 
+
+On the other hand, one type of unconventional fiscal policy is **increasing value-added taxes**. As the name of the policy suggests, instead of increasing taxes like the income tax, the government announces that it is going to increase value-added taxes at some point in the future to push the consumers to spend their money sooner not later[@citeUChicago]. In this way, with the expectation that the value-added tax is going to rise, consumers are likely to increase spending today which increases total demand and output. One successful implementation of this policy happened in Germany, 2005 when the German government pre-announced the increase in value-added tax by 3% that would take place in 2007. It turned out that households changed their expectation in inflation and increased consumption.
+
+As illustrated by the brief example of the unconventional fiscal policy, we want to depict the benefits the policy brings, which allows it to become another alternative when the monetary policy reaches its limit. In addition, the conventional fiscal policy usually conducts with a time lag between when the policy is announced and when it is fully conducted. Hence, unconventional fiscal policy as an additional tool that has empirically proven to be quite useful can become a great alternative to other policies. 
+
+
+## Discussion & Conclusion
+### Limitation
+As discussed in previous sections, unconventional monetary policy has been a great help in re-establishing economic activity and prevent further depression of the economy, several limitations should be pointed out. Generally, since the unconventional monetary policy also works through interest rates, the persistently low-interest-rate may reduce banks' capability to lend as their profits are now relatively low. Also, the low-interest rate may be accompanied by higher and higher asset prices. 
+
+Talking more specifically about the limitations for particular policies, one caveat that *forward guidance* has is that the statement may not be correctly perceived by the public or the non-credible policy-maker fails to alter expectations of the market. Both of these phenomenons would make forward guidance ineffective. On the other hand, evidence has suggested that by conducting *quantitative easing*, the central bank's balance sheet expands tremendously as it purchases a large amount of the assets. Through the process of stimulating the economy, high inflation becomes a side-effect. Lastly, since the excess reserves the commercial banks have with the central bank are only a small proportion compared to the commercial banks' balance sheets, and the required reserves are usually exempted from being charged the interest[@citeHutchins]. Therefore, a *negative interest rate* policy may not increase the money supply as expected since negative rates reduce the incentive for commercial banks to lend. 
+
+Hence, as we see that no policy is perfect. It is undoubtedly that unconventional monetary policy has exerted a great positive effect on the economy during recessions, and it has been used even when the economy is well-functioning. However, as we touched on the limitations the monetary policy has and looked at one of the alternatives for the policy which is the conventional/unconventional fiscal policy, there is a need for additional tools in the future. Policies developed during the current coronavirus pandemic are great examples of providing more tools to the central bank.
+
+At present(2020), the ongoing coronavirus pandemic has brought another huge shock to the world economy. Many countries have introduced what is known as the "stimulus package" to provide monetary stimulus to help people get through the crisis and hope to increase demand. Thus, as we can see the economy experiences unexpected shocks and downturns not unusually. The policy we have discussed in this paper should keep remaining in policy-makers' toolkit, as they all demonstrate their effectiveness in restoring economic condition and prevent further economic deterioration. Despite the current tools, one challenge the central bank needs to overcome is to develop plans that do not heavily rely on the manipulation of the interest rate, as we have discussed how the long-term interest rate can also hit the zero boundaries. 
+
+### Tools for the Future
+In addition to the tools described, other monetary policies could potentially be used by the central bank, such as *helicopter money* and *yield curve control*.
+
+Helicopter money refers to the central bank directly printing out new money and distribute it to the public to stimulate demand during recessions. That is, instead of affecting the interest rate to expand the money supply, the money is just simply handed to the public, hoping for them to increase consumption/investment to increase the demand and output. However, one obvious downside would be the long-sustaining high inflation due to a large amount of money flowing around in the economy which would make it difficult for the economy to drain this excess liquidity when the crisis ends.
+
+Yield curve control is another policy targeting manipulating long-term interest rates. The central bank can target a particular interest rate and buy a sufficient amount of bonds to keep the interest rate from rising above the target. Through yield curve control, it helps stimulate the economy when the short-term interest rate hits zero. In fact, this policy was suggested to implement within a shorter horizon and it can augment the effect of forward guidancing[@citeBen]. In conjunction, after the central bank uses forward guidance to communicate with the public what would be done in the future, the yield curve control policy justifies its intention and reveals the process of how the central bank accomplishes its goal. This increases public confidence and augments public expectation towards a prolonged period of the lower interest rate. In turn, consumption and investment would increase and output level would expand, accompanied by the increase in the price level.
+
+Nonetheless, whether these policies should be adopted in the future remains unknown and the central bank may develop more sophisticated tools to fight unexpected situations.
+
+### Looking Forward
+Having gone through a whole set of discussions and analyses, we clearly stated the benefits and caveats for each policy mentioned. In my personal opinion, the policies analyzed in this paper have a greater advantage than disadvantage overall in fighting with the economic conditions in bad times. As we said before, no policy is perfect, but policies are rendered in a way to deal with specific objectives. Policy-makers came up with the policies that cope with the main challenges the economy faces at that certain period of the time. Side effects do exist as we saw with the limitations of the policies, but another set of policies should be adopted or designed to deal with these problems, as the existence of different policies is meant to complement one another to make the system more robust and capable of solving a variety of potential problems. For example, the three unconventional monetary policies emerged because we have exhausted the benefit from conventional monetary policy. As a result, these policies have provided additional accommodation to the usual monetary policy. However, sometimes these policies do not yield desirable results as expected as we saw with the Japanese example, which ties back to the fact that the central banks may need more tools in the future. 
+
+Furthermore, though we mentioned only two crises in the analysis(the Great Recession and the Covid pandemic), they demonstrate the point that the financial crisis does not come with the same form and nature. Different times require the policy-makers to adopt different strategies and they may need to design new policies for the emergence of new challenges. Hence, the available tools are expected to alter and potentially expand as we progress in history. 
+
+\newpage
+## Appendix
+Table 1:  Characteristics of the four asset purchase programs
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+Program <- c("First LSAP(QE1)", "", "", "Second LSAP(QE2)", "MEP(Twist)", "Third LSAP(QE3)", "")
+Dates <- c("11/2008 to 3/2009", "", "", "11/2010 to 6/2011", "9/2011 to 12/2012", "9/2012 to 10/2014", "12/2012 to 10/2014")
+Assets_Purchased <- c("Agency debt", "Agency MBSs", "Treasuries", "Longer-dated Treasuries", "6- to 30-year Treasuries", "MBSs", "Longer-dated Treasuries")
+Size_billions <- c("$200", "$1,250", "$300", "$600", "$667", "$40/month", "$45/month")
+Sterilized <- c("No", "", "", "No", "Yes", "No", "")
+
+knitr::kable(data.frame(Program, Dates, Assets_Purchased, Size_billions, Sterilized))
+```
+
+## References
