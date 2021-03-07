@@ -1,2 +1,2 @@
 # unconventional-monetary-policy
-This is a research paper about unconventional monetary policy in conjunction with conventional/unconventional policies in the past years.
+This is a research paper about unconventional monetary policy in conjunction with conventional/unconventional policies in the past years. The paper outlines the common unconventional monetary policies used my policymakers and economists and includes reasons behind the adoption of these policies. We also provide historical implementations of these policies and some potential tools needed in the future.
